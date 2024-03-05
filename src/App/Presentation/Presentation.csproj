@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <UserSecretsId>1af091e5-c894-44ec-a4ff-999890d3c6aa</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\css\wow\wow.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\wow\wow.min.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\easing\easing.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\easing\easing.min.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\waypoints\links.php" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\waypoints\waypoints.min.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\js\owlcarousel\assets\ajax-loader.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\js\owlcarousel\assets\owl.carousel.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\js\owlcarousel\assets\owl.carousel.min.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\js\owlcarousel\assets\owl.theme.default.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\js\owlcarousel\assets\owl.theme.default.min.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\js\owlcarousel\assets\owl.theme.green.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\js\owlcarousel\assets\owl.theme.green.min.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\js\owlcarousel\assets\owl.video.play.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\animate\animate.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\animate\animate.min.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\Button\style.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\Navbar\style.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\Spinner\style.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\js\owlcarousel\owl.carousel.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\js\owlcarousel\owl.carousel.min.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\js\wow\wow.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\js\wow\wow.min.js" />
+      <_ContentIncludedByDefault Remove="Views\Staff\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Services\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Portfolio\Lips\DetailsLipsOne.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.TagHelpers" Version="2.2.0" />
+      <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0-preview.1.24112.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="wwwroot\images\testimonials\" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "src\App\Presentation\Presentation.csproj", "{AA218F24-16FD-4E5B-B114-D946C6E9E109}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{F64666C5-1CDF-458B-8E43-8A72D687B932}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\App\Application\Application.csproj", "{B1ADCAF9-AB71-428C-AE67-8EC98D810B8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\App\Domain\Domain.csproj", "{FAC136C7-FC63-4F54-880E-CC1C4D7FD001}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA218F24-16FD-4E5B-B114-D946C6E9E109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA218F24-16FD-4E5B-B114-D946C6E9E109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA218F24-16FD-4E5B-B114-D946C6E9E109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA218F24-16FD-4E5B-B114-D946C6E9E109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1ADCAF9-AB71-428C-AE67-8EC98D810B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1ADCAF9-AB71-428C-AE67-8EC98D810B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1ADCAF9-AB71-428C-AE67-8EC98D810B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1ADCAF9-AB71-428C-AE67-8EC98D810B8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAC136C7-FC63-4F54-880E-CC1C4D7FD001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC136C7-FC63-4F54-880E-CC1C4D7FD001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC136C7-FC63-4F54-880E-CC1C4D7FD001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC136C7-FC63-4F54-880E-CC1C4D7FD001}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AA218F24-16FD-4E5B-B114-D946C6E9E109} = {F64666C5-1CDF-458B-8E43-8A72D687B932}
+		{B1ADCAF9-AB71-428C-AE67-8EC98D810B8D} = {F64666C5-1CDF-458B-8E43-8A72D687B932}
+		{FAC136C7-FC63-4F54-880E-CC1C4D7FD001} = {F64666C5-1CDF-458B-8E43-8A72D687B932}
+	EndGlobalSection
+EndGlobal
