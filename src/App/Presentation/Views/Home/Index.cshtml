@@ -1,91 +1,243 @@
 <div>
-  <!-- ======= Hero Section ======= -->
+  <!-- ======= Заголовок ======= -->
+
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
       <h1>Aleksandra Aleksandrovna</h1>
       <p>I'm <span class="typed" data-typed-items="Cosmetologist, Dermatovenerologist"></span></p>
     </div>
   </section>
-  
+
+  <!-- ======= Конец заголовка ======= -->
+
+
+  <!-- ======= Портфолио ======= -->
+
   <section id="portfolio" class="portfolio section-bg">
     <div class="container">
-
       <div class="section-title">
         <h2>Портфолио</h2>
         <p>Собраны мои лучшие работы. Больше работ вы сможете найти в соответсвующем разделе в меню сайта.</p>
       </div>
 
-      <div class="row" data-aos="fade-up">
-        <div class="col-lg-12 d-flex justify-content-center">
-          <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">Все</li>
-            <li data-filter=".filter-lips">Контурная плачтика губ</li>
-            <li data-filter=".filter-card">Еще что-то</li>
-            <li data-filter=".filter-web">Еще что-то</li>
-          </ul>
-        </div>
-      </div>
+      @await Html.PartialAsync("PotfolioHeaderPartial")
 
       <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-        
-        <!-- ======= Блок с губами ======= -->
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-lips">
+        <!-- ======= Контурная пластика ======= -->
+        
+        <div class="col-lg-4 col-md-3 portfolio-item filter-contourPlastic">
           <div class="portfolio-wrap">
-            <img src="images/portfolio/lips/1.jpg" class="img-fluid" alt="">
+            <img src="images/portfolio/contourPlastic/Lips/4.jpg" class="img-fluid" alt="">
             <div class="portfolio-links">
-              <a href="images/portfolio/lips/1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Короткое описание губ">
+              <a href="images/portfolio/contourPlastic/Lips/4.jpg"
+                 data-gallery="portfolioGallery"
+                 class="portfolio-lightbox"
+                 title="Контурная пластика губ препаратом Stylage M.">
+                
                 <i class="bx bx-plus"></i>
               </a>
-              <a asp-controller="Lips" asp-action="Index" asp-route-viewName="LipsOne" title="Детали">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-3 portfolio-item filter-contourPlastic">
+          <div class="portfolio-wrap">
+            <img src="images/portfolio/contourPlastic/Lips/2.jpg" class="img-fluid" alt="">
+            <div class="portfolio-links">
+              <a href="images/portfolio/contourPlastic/Lips/2.jpg"
+                 data-gallery="portfolioGallery"
+                 class="portfolio-lightbox"
+                 title="Контурная пластика губ препаратом Stylage L.">
+                
+                <i class="bx bx-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-3 portfolio-item filter-contourPlastic">
+          <div class="portfolio-wrap">
+            <img src="images/portfolio/contourPlastic/Lips/3.jpg" class="img-fluid" alt="">
+            <div class="portfolio-links">
+              <a href="images/portfolio/contourPlastic/lips/3.jpg"
+                 data-gallery="portfolioGallery"
+                 class="portfolio-lightbox"
+                 title="Контурная пластика губ препаратом Juvederm Ultra Smile.">
+                
+                <i class="bx bx-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ======= Конец блока с контурной пластикой ======= -->
+        
+
+        <!-- ======= Блок с векторным лифтингом ======= -->
+        
+        <div class="col-lg-4 col-md-3 portfolio-item filter-radiesse">
+          <div class="portfolio-wrap">
+            <img src="images/portfolio/radiesse/one/1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-links">
+              <a href="images/portfolio/radiesse/one/1.jpg"
+                 data-gallery="portfolioGallery"
+                 class="portfolio-lightbox"
+                 title="Векторный лифтинг.">
+                
+                <i class="bx bx-plus"></i>
+              </a>
+              <a asp-controller="Radiesse" asp-action="Index" asp-route-pageId="1" title="Детали">
+                <i class="bx bx-link"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-3 portfolio-item filter-radiesse">
+          <div class="portfolio-wrap">
+            <img src="images/portfolio/radiesse/two/1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-links">
+              <a href="images/portfolio/radiesse/two/1.jpg"
+                 data-gallery="portfolioGallery"
+                 class="portfolio-lightbox"
+                 title="Векторный лифтинг.">
+                
+                <i class="bx bx-plus"></i>
+              </a>
+              <a asp-controller="Radiesse" asp-action="Index" asp-route-pageId="2" title="Детали">
+                <i class="bx bx-link"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-3 portfolio-item filter-radiesse">
+          <div class="portfolio-wrap">
+            <img src="images/portfolio/radiesse/three/1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-links">
+              <a href="images/portfolio/radiesse/three/1.jpg"
+                 data-gallery="portfolioGallery"
+                 class="portfolio-lightbox"
+                 title="Векторный лифтинг.">
+                
+                <i class="bx bx-plus"></i>
+              </a>
+              <a asp-controller="Radiesse" asp-action="Index" asp-route-pageId="3" title="Детали">
                 <i class="bx bx-link"></i>
               </a>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-lips">
+        <!-- ======= Конец блока с векторным лифтингом ======= -->
+        
+
+        <!-- ======= Блок с фотоомоложением ======= -->
+        
+        <div class="col-lg-4 col-md-3 portfolio-item filter-photorejuvenation">
           <div class="portfolio-wrap">
-            <img src="images/portfolio/lips/2.jpg" class="img-fluid" alt="">
+            <img src="images/portfolio/photorejuvenation/one/1.jpg" class="img-fluid" alt="">
             <div class="portfolio-links">
-              <a href="images/portfolio/lips/2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Короткое описание губ">
+              <a href="images/portfolio/photorejuvenation/one/1.jpg"
+                 data-gallery="portfolioGallery"
+                 class="portfolio-lightbox"
+                 title="Фотоомоложение.">
+                
                 <i class="bx bx-plus"></i>
               </a>
-              <a asp-controller="Lips" asp-action="Index" asp-route-viewName="LipsTwo" title="Детали">
+              <a asp-controller="Photorejuvenation" asp-action="Index" asp-route-pageId="1" title="Детали">
                 <i class="bx bx-link"></i>
               </a>
             </div>
           </div>
         </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-lips">
+        
+        <div class="col-lg-4 col-md-3 portfolio-item filter-photorejuvenation">
           <div class="portfolio-wrap">
-            <img src="images/portfolio/lips/3.jpg" class="img-fluid" alt="">
+            <img src="images/portfolio/photorejuvenation/two/1.jpg" class="img-fluid" alt="">
             <div class="portfolio-links">
-              <a href="images/portfolio/lips/3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Короткое описание губ">
+              <a href="images/portfolio/photorejuvenation/two/1.jpg"
+                 data-gallery="portfolioGallery"
+                 class="portfolio-lightbox"
+                 title="Фотоомоложение.">
+                
                 <i class="bx bx-plus"></i>
               </a>
-              <a asp-controller="Lips" asp-action="Index" asp-route-viewName="LipsThree" title="Детали">
+              <a asp-controller="Photorejuvenation" asp-action="Index" asp-route-pageId="2" title="Детали">
                 <i class="bx bx-link"></i>
               </a>
             </div>
           </div>
         </div>
         
-        <!-- ======= Конец блока с губами ======= -->
-        
-        <!-- ======= Блока с контурная пластикой ======= -->
+        <!-- ======= Конец блока с фотоомоложением ======= -->
         
         
+        <!-- ======= Блок с ботоксом ======= -->
         
+        <div class="col-lg-4 col-md-3 portfolio-item filter-botox">
+          <div class="portfolio-wrap">
+            <img src="images/portfolio/botox/one/1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-links">
+              <a href="images/portfolio/botox/one/1.jpg"
+                 data-gallery="portfolioGallery"
+                 class="portfolio-lightbox"
+                 title="Ботулинотерапия.">
+                
+                <i class="bx bx-plus"></i>
+              </a>
+              <a asp-controller="Botox" asp-action="Index" asp-route-pageId="1" title="Детали">
+                <i class="bx bx-link"></i>
+              </a>
+            </div>
+          </div>
+        </div>
         
-        <!-- ======= Конец блока с контурная пластикой ======= -->
+        <div class="col-lg-4 col-md-3 portfolio-item filter-botox">
+          <div class="portfolio-wrap">
+            <img src="images/portfolio/botox/two/1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-links">
+              <a href="images/portfolio/botox/two/1.jpg"
+                 data-gallery="portfolioGallery"
+                 class="portfolio-lightbox"
+                 title="Ботулинотерапия.">
+                
+                <i class="bx bx-plus"></i>
+              </a>
+              <a asp-controller="Botox" asp-action="Index" asp-route-pageId="2" title="Детали">
+                <i class="bx bx-link"></i>
+              </a>
+            </div>
+          </div>
+        </div>
         
-
+        <div class="col-lg-4 col-md-3 portfolio-item filter-botox">
+          <div class="portfolio-wrap">
+            <img src="images/portfolio/botox/three/1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-links">
+              <a href="images/portfolio/botox/three/1.jpg"
+                 data-gallery="portfolioGallery"
+                 class="portfolio-lightbox"
+                 title="Ботулинотерапия.">
+                
+                <i class="bx bx-plus"></i>
+              </a>
+              <a asp-controller="Botox" asp-action="Index" asp-route-pageId="3" title="Детали">
+                <i class="bx bx-link"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- ======= Конец блока с ботоксом ======= -->
       </div>
 
     </div>
   </section>
 
+  <!-- ======= Конец блока портфолио ======= -->
+
   @await Html.PartialAsync("ContactPartial")
+
 </div>

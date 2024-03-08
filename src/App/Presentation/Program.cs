@@ -1,18 +1,12 @@
+using Presentation.Extensions;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Поддержка контроллеров MVC
-builder.Services.AddControllersWithViews();
-
-builder.Services.AddRazorPages();
-
-
-
-
-
+// Подключение сервисов Presentation
+builder.Services.AddPresentation();
 
 var app = builder.Build();
 
-//app.UseAuthorization();
 app.UseRouting();
 
 app.MapRazorPages();
@@ -22,6 +16,6 @@ app.UseStaticFiles();
 
 app.MapControllerRoute(
    name: "default",
-   pattern: "{controller=Home}/{action=Index}/{id?}");
+   pattern: "{controller=Home}/{action=Index}");
 
 app.Run();
