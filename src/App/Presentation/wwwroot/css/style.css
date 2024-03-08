@@ -21,6 +21,7 @@ a:hover {
   color: #fff;
   transition: 0.4s;
   border-radius: 4px;
+  margin-bottom: 10%;
 }
 
 .custom-link:hover{
@@ -255,7 +256,6 @@ Hero Section
 
 #hero:before {
   content: "";
-  background: rgba(5, 13, 24, 0.3);
   position: absolute;
   bottom: 0;
   top: 0;
