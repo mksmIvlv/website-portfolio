@@ -5,7 +5,7 @@
         <div class="d-flex flex-column">
     
             <div class="profile">
-                <img src="images/profile/logoProfile.jpg" alt="" class="img-fluid rounded-circle">
+                <img src="~/images/profile/avatarProfile.jpg" alt="" class="img-fluid rounded-circle">
                 <h1 class="text-light">
                     <a asp-controller="Home" asp-action="Index">Aleksandra Aleksandrovna</a>
                 </h1>
@@ -29,6 +29,12 @@
                         <a asp-controller="Portfolio" asp-action="Index" class="nav-link scrollto">
                             <i class="bx bx-book-content"></i>
                             <span>Портфолио</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a asp-controller="Blog" asp-action="Index" class="nav-link scrollto">
+                            <i class="bx bx-book-reader"></i>
+                            <span>Блог</span>
                         </a>
                     </li>
                 </ul>

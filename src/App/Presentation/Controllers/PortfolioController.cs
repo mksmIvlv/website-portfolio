@@ -11,4 +11,19 @@ public class PortfolioController : Controller
     {
         return View();
     }
+    
+    public IActionResult Radiesse(string page)
+    {
+        return View($"{page}");
+    }
+    
+    public IActionResult Botox(string page)
+    {
+        return View($"{page}");
+    }
+    
+    public IActionResult Photorejuvenation(string page)
+    {
+        return View($"{page}");
+    }
 }

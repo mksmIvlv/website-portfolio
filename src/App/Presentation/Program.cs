@@ -11,6 +11,8 @@ app.UseRouting();
 
 app.MapRazorPages();
 
+//app.UseHttpsRedirection();
+
 // Подключение статических файлов
 app.UseStaticFiles();
 

@@ -36,6 +36,8 @@
       <_ContentIncludedByDefault Remove="Views\Services\Index.cshtml" />
       <_ContentIncludedByDefault Remove="Views\Portfolio\Lips\DetailsLipsOne.cshtml" />
       <_ContentIncludedByDefault Remove="wwwroot\vendor\php-email-form\validate.js" />
+      <_ContentIncludedByDefault Remove="Views\Photorejuvenation\1.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Photorejuvenation\2.cshtml" />
     </ItemGroup>
 
     <ItemGroup>
@@ -44,8 +46,18 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Views\ContourPlastic\" />
-      <Folder Include="wwwroot\images\testimonials\" />
+      <AdditionalFiles Include="Views\Portfolio\Botox\1.cshtml" />
+      <AdditionalFiles Include="Views\Portfolio\Botox\2.cshtml" />
+      <AdditionalFiles Include="Views\Portfolio\Botox\3.cshtml" />
+      <AdditionalFiles Include="Views\Portfolio\Photorejuvenation\1.cshtml" />
+      <AdditionalFiles Include="Views\Portfolio\Photorejuvenation\2.cshtml" />
+      <AdditionalFiles Include="Views\Portfolio\Radiesse\1.cshtml" />
+      <AdditionalFiles Include="Views\Portfolio\Radiesse\2.cshtml" />
+      <AdditionalFiles Include="Views\Portfolio\Radiesse\3.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Views\Portfolio\ContourPlastic\" />
     </ItemGroup>
 
 </Project>

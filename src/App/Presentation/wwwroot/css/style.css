@@ -71,6 +71,10 @@ Back to top button
   opacity: 1;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 /*--------------------------------------------------------------
 Header
 --------------------------------------------------------------*/
@@ -385,6 +389,10 @@ About
 /*--------------------------------------------------------------
 Facts
 --------------------------------------------------------------*/
+.padding{
+  padding-top: 5%;
+}
+
 .facts {
   padding-bottom: 30px;
 }
@@ -475,6 +483,10 @@ Resume
 --------------------------------------------------------------*/
 resume {
   overflow: hidden;
+}
+
+section-portfolio{
+  padding: 0;
 }
 
 .resume .resume-title {
@@ -776,6 +788,10 @@ Testimonials
   margin: 0 auto;
 }
 
+.testimonials .testimonial-item .testimonial-photo{
+  width: 100%;
+}
+
 .testimonials .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
@@ -810,7 +826,7 @@ Testimonials
 
 .testimonials .testimonial-item p {
   font-style: italic;
-  margin: 0 15px 15px 15px;
+  /*margin: 0 15px 15px 15px;*/
   padding: 20px;
   background: #fff;
   position: relative;
