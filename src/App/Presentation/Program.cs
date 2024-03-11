@@ -11,7 +11,8 @@ app.UseRouting();
 
 app.MapRazorPages();
 
-//app.UseHttpsRedirection();
+// обработка ошибок HTTP
+app.UseStatusCodePagesWithRedirects("/Error/NotFound");
 
 // Подключение статических файлов
 app.UseStaticFiles();

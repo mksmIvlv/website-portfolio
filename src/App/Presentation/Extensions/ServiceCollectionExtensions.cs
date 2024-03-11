@@ -1,5 +1,8 @@
 namespace Presentation.Extensions;
 
+/// <summary>
+/// Расширение для подключения сервисов
+/// </summary>
 public static class ServiceCollectionExtensions
 {
     /// <summary>
