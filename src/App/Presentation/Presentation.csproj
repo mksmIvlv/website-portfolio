@@ -9,6 +9,10 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Content Remove="bundleconfig.json" />
+    </ItemGroup>
+
+    <ItemGroup>
       <_ContentIncludedByDefault Remove="wwwroot\css\wow\wow.js" />
       <_ContentIncludedByDefault Remove="wwwroot\css\wow\wow.min.js" />
       <_ContentIncludedByDefault Remove="wwwroot\css\easing\easing.js" />
@@ -58,6 +62,10 @@
 
     <ItemGroup>
       <Folder Include="Views\Portfolio\ContourPlastic\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="bundleconfig.json" />
     </ItemGroup>
 
 </Project>
