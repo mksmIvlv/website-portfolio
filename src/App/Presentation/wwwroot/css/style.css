@@ -272,6 +272,11 @@ Hero Section
   position: relative;
   z-index: 2;
   min-width: 300px;
+  padding-left: 15px;
+}
+
+.p-padding-left{
+  padding-left: 1px;
 }
 
 #hero h1 {
