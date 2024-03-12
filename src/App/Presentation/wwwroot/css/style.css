@@ -275,10 +275,6 @@ Hero Section
   padding-left: 15px;
 }
 
-.p-padding-left{
-  padding-left: 1px;
-}
-
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
@@ -292,6 +288,7 @@ Hero Section
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
+  padding-left: 3px;
 }
 
 #hero p span {
