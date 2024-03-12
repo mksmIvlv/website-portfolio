@@ -315,6 +315,10 @@ Hero Section
     line-height: 24px;
     margin-bottom: 30px;
   }
+
+  .justify-content-center {
+    padding-bottom: 400px !important;
+  }
 }
 
 /*--------------------------------------------------------------
