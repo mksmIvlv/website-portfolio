@@ -1,6 +1,6 @@
 [
   {
-    "outputFileName": "wwwroot\\js\\main_2.js",
+    "outputFileName": "wwwroot\\js\\main.js",
     "inputFiles": [
       "wwwroot\\vendor\\purecounter\\purecounter_vanilla.js",
       "wwwroot\\vendor\\aos\\aos.js",
@@ -9,8 +9,7 @@
       "wwwroot\\vendor\\isotope-layout\\isotope.pkgd.min.js",
       "wwwroot\\vendor\\swiper\\swiper-bundle.min.js",
       "wwwroot\\vendor\\typed.js\\typed.umd.js",
-      "wwwroot\\vendor\\waypoints\\noframework.waypoints.js",
-      "wwwroot\\js\\main.js"
+      "wwwroot\\vendor\\waypoints\\noframework.waypoints.js"
     ]
   }
 ]

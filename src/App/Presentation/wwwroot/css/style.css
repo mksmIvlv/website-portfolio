@@ -361,6 +361,10 @@ section {
   margin-bottom: 0;
 }
 
+.justify-content-center-all {
+  justify-content: center;
+}
+
 /*--------------------------------------------------------------
 About
 --------------------------------------------------------------*/
@@ -597,7 +601,7 @@ Portfolio
 }
 
 .portfolio .portfolio-wrap {
-  transition: 0.3s;
+  transition: 0.5s;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -611,7 +615,7 @@ Portfolio
   right: 0;
   top: 0;
   bottom: 0;
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.5s;
   z-index: 2;
   opacity: 0;
 }
