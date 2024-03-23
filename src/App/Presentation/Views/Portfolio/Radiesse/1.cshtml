@@ -1,42 +1,40 @@
 <div>
-    @await Html.PartialAsync("Details/BreadcrumbsPartial")
-  
-    <section id="portfolio-details" class="portfolio-details section-vh">
-        <div class="container">
-            <div class="row gy-5">
-                <div class="col-lg-6">
-                    <div class="portfolio-details-slider swiper">
-                        <div class="swiper-wrapper align-items-center">
+  @await Html.PartialAsync("Details/BreadcrumbsPartial")
 
-                            <div class="swiper-slide">
-                                <img src="~/images/portfolio/radiesse/one/1.jpg" alt="">
-                            </div>
+  <section id="portfolio-details" class="portfolio-details section-vh">
+    <div class="container">
+      <div class="row gy-5">
+        <div class="col-lg-6">
+          <div class="portfolio-details-slider swiper">
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide">
+                <img src="~/images/portfolio/radiesse/one/1.jpg" alt="" />
+              </div>
 
-                            <div class="swiper-slide">
-                                <img src="~/images/portfolio/radiesse/one/2.jpg" alt="">
-                            </div>
+              <div class="swiper-slide">
+                <img src="~/images/portfolio/radiesse/one/2.jpg" alt="" />
+              </div>
 
-                            <div class="swiper-slide">
-                                <img src="~/images/portfolio/radiesse/one/3.jpg" alt="">
-                            </div>
-
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="portfolio-info">
-                        <h3>Подробная информация</h3>
-                        <ul>
-                            <li>
-                                <strong>Категория</strong>: Векторный лифтинг средней трети лица.
-                            </li>
-                        </ul>
-                    </div>
-                    <br/>
-                </div>
+              <div class="swiper-slide">
+                <img src="~/images/portfolio/radiesse/one/3.jpg" alt="" />
+              </div>
             </div>
+            <div class="swiper-pagination"></div>
+          </div>
         </div>
-    </section>
+
+        <div class="col-lg-6">
+          <div class="portfolio-info">
+            <h3>Подробная информация</h3>
+            <ul>
+              <li>
+                <strong>Категория</strong>: Векторный лифтинг средней трети лица.
+              </li>
+            </ul>
+          </div>
+          <br />
+        </div>
+      </div>
+    </div>
+  </section>
 </div>
