@@ -127,6 +127,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="AspNetCore.SEOHelper" Version="1.0.1" />
       <PackageReference Include="Microsoft.AspNetCore.Mvc.TagHelpers" Version="2.2.0" />
       <PackageReference Include="Microsoft.AspNetCore.ResponseCompression" Version="2.2.0" />
       <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0-preview.1.24112.3" />
@@ -149,6 +150,8 @@
 
     <ItemGroup>
       <None Include="bundleconfig.json" />
+      <None Include="wwwroot\robots.txt" />
+      <None Include="wwwroot\sitemap.xml" />
     </ItemGroup>
 
 </Project>

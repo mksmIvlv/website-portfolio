@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /https://drivlieva.ru
+Allow: /*.jpg
+Sitemap: https://drivlieva.ru/sitemap.xml
